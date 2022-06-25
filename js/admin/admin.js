@@ -1,5 +1,3 @@
-//////////////////////////////////////////////////////
-
   $(".add_more").click(function (e) {
   
     e.preventDefault;
@@ -127,7 +125,4 @@
       if(data.redirect){window.location.href=base_url+data.redirect}
     }
 
-
-
-/////////////////////////////////////////
 
