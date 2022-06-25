@@ -12,6 +12,12 @@ input::-webkit-inner-spin-button {
 input[type=number] {
   -moz-appearance: textfield;
 }
+@media print {
+  /* style sheet for print goes here */
+  .noprint {
+    visibility: hidden;
+  }
+}
 
 </style>
   <!-- Content Wrapper. Contains page content -->
@@ -21,6 +27,10 @@ input[type=number] {
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
+          <a href="<?php echo site_url('adminpanel')?>" class="noprint pb-2">
+            <svg class="bi bi-arrow-left text-dark" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="black" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"></path>
+            </svg>Back to Home</a>
             <h1>Invoice</h1>
           </div>
          
@@ -88,7 +98,7 @@ input[type=number] {
                                     <td><?php echo $detail->quantity?></td>
                                     <td>$<?php echo number_format($detail->price,2);?></td>
                                     <td><?php echo number_format($detail->taxvalue,2)."(".$detail->tax." % )";?></td>
-                                    <td>$<?php echo $detail->total;?></td>
+                                    <td>$<?php echo number_format($detail->total,2);?></td>
                                  
                                  </tr> 
                                  <?php $i++; } }
@@ -142,7 +152,7 @@ input[type=number] {
               <div class="row no-print">
                 <div class="col-12">
                     <input type="hidden" id="subwithtax" class="subwithtax" value="<?php echo $subwithtax;?>">
-                  <button type="button" class="btn btn-success float-right" onclick="window.print()"><i class="far fa-credit-card"></i> Generate Invoice
+                  <button type="button" class="btn btn-success float-right noprint" onclick="window.print()"><i class="far fa-credit-card"></i> Generate Invoice
                   
                   </button>
                 </div>
