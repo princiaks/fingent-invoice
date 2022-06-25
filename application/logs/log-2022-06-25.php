@@ -30,3 +30,15 @@ ERROR - 2022-06-25 17:08:22 --> Could not find the specified $config['composer_a
 ERROR - 2022-06-25 17:08:22 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\fingent-invoice\vendor/autoload.php
 ERROR - 2022-06-25 17:08:24 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\fingent-invoice\vendor/autoload.php
 ERROR - 2022-06-25 17:08:24 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\fingent-invoice\vendor/autoload.php
+ERROR - 2022-06-25 17:10:24 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\fingent-invoice\vendor/autoload.php
+ERROR - 2022-06-25 17:10:24 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\fingent-invoice\vendor/autoload.php
+ERROR - 2022-06-25 17:10:28 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\fingent-invoice\vendor/autoload.php
+ERROR - 2022-06-25 17:10:28 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\fingent-invoice\vendor/autoload.php
+ERROR - 2022-06-25 17:11:22 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\fingent-invoice\vendor/autoload.php
+ERROR - 2022-06-25 17:11:22 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\fingent-invoice\vendor/autoload.php
+ERROR - 2022-06-25 17:11:34 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\fingent-invoice\vendor/autoload.php
+ERROR - 2022-06-25 17:11:35 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\fingent-invoice\vendor/autoload.php
+ERROR - 2022-06-25 17:11:46 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\fingent-invoice\vendor/autoload.php
+ERROR - 2022-06-25 17:11:46 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\fingent-invoice\vendor/autoload.php
+ERROR - 2022-06-25 17:11:55 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\fingent-invoice\vendor/autoload.php
+ERROR - 2022-06-25 17:11:55 --> Could not find the specified $config['composer_autoload'] path: C:\xampp\htdocs\fingent-invoice\vendor/autoload.php

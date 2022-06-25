@@ -131,7 +131,7 @@ input[type=number] {
                       </tr>
                       <tr>
                         <th>Discount</th>
-                        <td><input type="number" id="discount" class="discount" style="border:none;" name="discount" value="0" step="0.01"><input type="checkbox" style="" data-toggle="switchbutton" checked data-size="sm" data-onstyle="secondary" data-offstyle="secondary" data-onlabel="%" data-offlabel="$" id="disctype"></td>
+                        <td><input type="number" id="discount" class="discount" style="border:none;width:50px" name="discount" value="0" step="0.01"><input type="checkbox" style="" data-toggle="switchbutton" checked data-size="sm" data-onstyle="secondary" data-offstyle="secondary" data-onlabel="%" data-offlabel="$" id="disctype"></td>
                       </tr>
                       <tr>
                         <th>Subtotal(Incl.Tax):</th>
